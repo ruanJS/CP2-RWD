@@ -11,22 +11,24 @@
     align-items: center;
     background-color: darkgrey;
     height: 100px;
-    
+}
+
+.navigation a {
+    margin-right: 20px;
 }
 
 .cabecalho > img  {
     width: 150px;
     height: 100px;
     padding: 0.5rem 0.5rem 1rem;
-    display: block;
 }
 
 .cabecalho > nav {
-    display: flex;
     justify-content: space-around;
     height: 20%;
-    width: 30%;
+    width: 375px;
     flex-wrap: wrap;
+    margin-left: 30px;
 }
 
 .cabecalho a {
@@ -45,20 +47,23 @@
 
 .conteudo {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    margin: 140px 0px 32px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 130px 0px 90px;
 }
 
 
 .cards {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 15px;
     padding: 2rem;
     box-shadow: 0 4px 8px 0;
     margin-bottom: 20px;
-    width: 20%;
+    width: 300px;
+    height: 300px;
     background-color: darkgrey;
 }
 
@@ -68,7 +73,21 @@
 }
 
 .imagem {
-    height: 10rem;
-    width: 13rem;
+    height: 180px;
+    width: 100%;
     border-radius: 15px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgrey;
+    border: 1px solid red;
+    flex-direction: row-reverse;
+    height: 55px;
+    align-items: center;
+}
+
+.rodape h3 {
+    width: 210px;
 }
