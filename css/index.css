@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    width: 100%;
-    max-width: 1440px;
-    height: 1024;
-}
-
 .cabecalho {
     display: flex;
     flex-direction: row-reverse;
@@ -50,5 +44,31 @@ body{
 }
 
 .conteudo {
-    
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0px 32px;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0;
+    margin-bottom: 20px;
+    width: 20%;
+    background-color: darkgrey;
+}
+
+.cards:hover {
+    color: white;
+    background-color: black;
+}
+
+.imagem {
+    height: 10rem;
+    width: 13rem;
+    border-radius: 15px;
 }
