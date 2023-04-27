@@ -1,0 +1,12 @@
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgrey;
+    flex-direction: row-reverse;
+    height: 55px;
+    align-items: center;
+}
+
+.rodape h3 {
+    width: 210px;
+}
